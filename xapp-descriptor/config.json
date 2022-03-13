@@ -5,8 +5,8 @@
             {
                 "name": "qp",
                 "image": {
-                    "registry": "nexus3.o-ran-sc.org:10002",
-                    "name": "o-ran-sc/ric-app-qp",
+                    "registry": "docker.io",
+                    "name": "shixiongqi/ric-app-qp",
                     "tag": "0.0.4"
                 }
             }
