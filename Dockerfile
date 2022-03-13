@@ -34,7 +34,7 @@ COPY setup.py /tmp
 COPY LICENSE.txt /tmp/
 COPY qp/ /qp
 RUN pip install /tmp
-
+RUN pip install --force-reinstall redis==3.0.1
 # Run
 ENV PYTHONUNBUFFERED 1
 CMD PYTHONPATH=/qp:/usr/lib/python3.7/site-packages/:$PYTHONPATH run-qp.py
